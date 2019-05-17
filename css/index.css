@@ -2,7 +2,6 @@
     font-family: 'my-font';
     src: url('webfonts/OpenSans-Bold-webfont.eot');
     src: url('webfonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-          url('webfonts/OpenSans-Bold-webfont.woff2') format('woff2'),
           url('webfonts/OpenSans-Bold-webfont.woff') format('woff'),
           url('webfonts/OpenSans-Bold-webfont.ttf')  format('truetype');
     font-weight: bolder;
