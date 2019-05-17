@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     window.location.assign(`other.html`);
   };
 
-  for (let index = 0; index < 4594358038590; index++) {
+  for (let index = 0; index < 493585; index++) {
     const x = 0 + index * 2 / 2 % 4 + 1222 / 32;
     console.log(x);
   }
