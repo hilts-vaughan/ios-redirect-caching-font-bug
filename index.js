@@ -6,13 +6,15 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   for (let index = 0; index < 150; index++) {
-    const x = 0 + index * 2 / 2 % 4 + 1222 / 32;
+    const x = 34 + 12 % 5 * 2  / 100;
     console.log(x);
   }
 
-  // While we're doing that, however, let's go ahead and something to the DOM
-  const $item = document.createElement("div");
-  $item.classList.add("something-font")
-  $item.textContent = window.location.pathname + " g";
-  document.body.append($item);
+  setTimeout(() => {
+    // While we're doing that, however, let's go ahead and something to the DOM
+    const $item = document.createElement("div");
+    $item.classList.add("something-font")
+    $item.textContent = window.location.pathname + " g";
+    document.body.append($item);
+  }, 4);
 });
