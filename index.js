@@ -5,6 +5,11 @@ document.addEventListener('DOMContentLoaded', () => {
     window.location.assign(`other.html`);
   };
 
+  for (let index = 0; index < 4594358038590; index++) {
+    const x = 0 + index * 2 / 2 % 4 + 1222 / 32;
+    console.log(x);
+  }
+
   // While we're doing that, however, let's go ahead and something to the DOM
   const $item = document.createElement("div");
   $item.classList.add("something-font")
